@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>สภาวิศวกร | Council of Engineers Thailand</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="cms-container">
+      <div class="main-container">
+        <!-- Left Side Bar  -->
+        <div class="side-manu-container">
+          <span class="menu-side__hamburger-menu nav-toggler"
+            ><i class="fa fa-bars" aria-hidden="true"></i>
+          </span>
+          <div class="side-manu-content active">
+            <i class="las la-times times-logo"></i>
+            <div class="head-menu-container">
+              <img src="./assets/logo.png" alt="Logo" />
+            </div>
+
+            <!-- <!Nav Link---->
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a href="#" target="_self" class="nav-link">
+                  <i class="las la-sign-out-alt signicon"></i>
+                  <div class="menu-name">ออกจากระบบ</div>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Right Side  -->
+        <div class="right-side">
+          <div class="dashboard-container">
+            <div class="card-container">
+              <div class="header">
+                บริการขอหนังสือรับรองใบอนุญาตประกอบวิชาชีพวิศวกรรม
+              </div>
+              <div class="sub-header-identify">ตรวจสอบเอกสารหนังสือรับรอง</div>
+
+              <!-- Form  -->
+              <form class="user-data-identify-container">
+                <div class="group-input">
+                  <div class="input-group-custom" style="width: 100%">
+                    <label for="input-live"
+                      >ชื่อของสมาชิก <span class="field">*</span></label
+                    ><input
+                      type="text"
+                      placeholder="กรุณากรอกชื่อ"
+                      class="form-control is-valid"
+                      value="อาทิตย์"
+                    />
+                    <div class="invalid-feedback">กรุณากรอก</div>
+                  </div>
+                  <div class="input-group-custom" style="width: 100%">
+                    <label for="input-live"
+                      >นามสกุลของสมาชิก <span class="field">*</span></label
+                    ><input
+                      type="text"
+                      placeholder="กรุณากรอกนามสกุล"
+                      class="form-control is-valid"
+                      value="ศรีจำปา"
+                    />
+                    <div class="invalid-feedback">กรุณากรอก</div>
+                  </div>
+                </div>
+                <div class="group-input">
+                  <div class="input-group-custom" style="width: 100%">
+                    <label for="input-live"
+                      >เลข Reference <span class="field">*</span></label
+                    ><input
+                      type="text"
+                      placeholder="กรุณากรอกเลข Reference"
+                      class="form-control is-valid"
+                      value="674109808"
+                    />
+                    <div class="last-warning invalid-feedback">กรุณากรอก</div>
+                  </div>
+                  <div class="checkPosition">
+                    <button type="button" class="checkUserData">
+                      ตรวจสอบ
+                      <img
+                        src="./assets/white-arrow-right.svg"
+                        alt="arrow-right"
+                        class="img-style"
+                      />
+                    </button>
+                  </div>
+                </div>
+              </form>
+
+              <!-- Info Container  -->
+              <section class="info-container">
+                <div class="result-header">
+                  สภาวิศวกรได้ออกหนังสือรับรองใบอนุญาตประกอบวิชาชีพวิศวกรรมควบคุมให้กับสมาชิกโดยมีรายละเอียดดังนี้
+                </div>
+                <div class="d-grid-4web">
+                  <div slot="1">
+                    <div>
+                      <div class="group-input">
+                        <b>เลขที่เอกสาร</b
+                        ><span class="tap">D-COE286658/2567</span>
+                      </div>
+
+                      <div class="group-input">
+                        <b>วันที่ออกหนังสือรับรอง</b
+                        ><span class="tap">17 มีนาคม 2567</span>
+                      </div>
+
+                      <div class="group-input">
+                        <b>หนังสือรับรองหมดอายุ</b
+                        ><span class="tap">15 กรกฎาคม 2567</span>
+                      </div>
+
+                      <div class="group-input">
+                        <b>เพื่อใช้ในการยื่นคำขออนุญาตตามแบบ ข.1 - ข.7</b>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div slot="2">
+                    <div class="group-input">
+                      <b>ชื่อ-นามสกุล</b
+                      ><span class="tap">นาย อาทิตย์ ศรีจำปา</span>
+                    </div>
+
+                    <div class="group-input">
+                      <b>ใบอนุญาต</b><span class="tap">ระดับสามัญวิศวกร</span>
+                    </div>
+
+                    <div class="group-input">
+                      <b>สาขาใบอนุญาต</b
+                      ><span class="tap">สาขาวิศวกรรมโยธา</span>
+                    </div>
+
+                    <div class="group-input">
+                      <b>เลขทะเบียนใบอนุญาต</b><span class="tap">สย.11906</span>
+                    </div>
+                    <div
+                      data-v-ceb41f7c=""
+                      data-v-1d443dd0=""
+                      class="group-input"
+                    >
+                      <b data-v-ceb41f7c="" data-v-1d443dd0=""
+                        >วันหมดอายุใบอนุญาต</b
+                      ><span data-v-ceb41f7c="" data-v-1d443dd0="" class="tap"
+                        >11 กันยายน 2569</span
+                      >
+                    </div>
+                    <div
+                      data-v-ceb41f7c=""
+                      data-v-1d443dd0=""
+                      class="group-input"
+                    >
+                      <b data-v-ceb41f7c="" data-v-1d443dd0=""
+                        >สถานะภาพใบอนุญาต</b
+                      ><span data-v-ceb41f7c="" data-v-1d443dd0="" class="tap"
+                        >ปกติ</span
+                      >
+                    </div>
+                  </div>
+
+                  <div slot="3">
+                    <div class="group-input">
+                      <b>ประเภทงาน</b>
+                      <span class="tap"
+                        >งานออกแบบและคำนวณ</span
+                      >
+                    </div>
+
+                    <div class="group-input">
+                      <b>งานที่รับผิดชอบ</b><span class="tap">ดัดแปลง</span>
+                    </div>
+                    <div class="group-input">
+                      <b>สิ่งปลูกสร้างชนิด</b
+                      ><span class="tap"
+                        >งาน Solar Rooftop อาคาร ค.ส.ล 1 ชั้น</span
+                      >
+                    </div>
+                    <div class="group-input">
+                      <b>เจ้าของ</b
+                      ><span class="tap"
+                        >บริษัท ซานไทย พี แอนด์ เอส จำกัด</span
+                      >
+                    </div>
+                    <div class="group-input">
+                      <b>จำนวน</b><span class="tap">1</span>
+                    </div>
+                    <div class="group-input">
+                      <b>เพื่อใช้</b
+                      ><span class="tap"
+                        >งาน Solar Rooftop</span
+                      >
+                    </div>
+                    <div class="group-input">
+                      <b>ปลูกสร้างในที่ดิน</b><span class="tap">โฉนด</span>
+                    </div>
+                    <div class="group-input">
+                      <b>เลขที่โฉนด/น.ส.3/ส.ค.1</b
+                      ><span class="tap">243909</span>
+                    </div>
+                    <div class="group-input">
+                      <b>ที่ตั้งโครงการ</b
+                      ><span data-v-ceb41f7c="" data-v-1d443dd0="" class="tap"
+                        >88/8-10 หมู่ที่ 3 ตำบลนาดี อำเภอเมืองสมุทรสาคร จ.สมุทรสาคร 74000</span
+                      >
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer  -->
+
+      <div class="footer-container">
+        <div class="register-bottom-container">
+          <div class="row">
+            <div class="col1">
+              <div class="register-bottom-items">
+                <span>สภาวิศวกร 1616/1</span>
+                <span>ถนนลาดพร้าว</span>
+                <span>แขวงวังทองหลาง เขตวังทองหลาง</span>
+                <span>กรุงเทพมหานคร 10310</span>
+              </div>
+            </div>
+            <div class="col">
+              <div class="register-bottom-items">
+                <div class="register-bottom-listtile">
+                  <img src="./assets/email.svg" alt="email" />
+                  <span>csr@coe.or.th</span>
+                </div>
+                <div class="register-bottom-listtile">
+                  <img src="./assets/phone.svg" alt="phone" />
+                  <span>สายด่วน 1303</span>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="register-bottom-items">
+                <a
+                  target="_blank"
+                  rel="nofollow"
+                  href="https://www.facebook.com/coethailand"
+                  ><div class="register-bottom-listtile">
+                    <img src="./assets/facebook.svg" alt="facebook" /><span
+                      >สภาวิศวกร</span
+                    >
+                  </div></a
+                ><a
+                  target="_blank"
+                  rel="nofollow"
+                  href="https://page.line.me/coethai?openQrModal=true"
+                  ><div class="register-bottom-listtile">
+                    <div class="circle-logo">
+                      <img src="./assets/line.svg" alt="line" />
+                    </div>
+                    <span>สภาวิศวกร</span>
+                  </div></a
+                ><a
+                  target="_blank"
+                  rel="nofollow"
+                  href="https://www.youtube.com/channel/UCp0hyBCBkIssbDKJaKQZa0Q"
+                  ><div class="register-bottom-listtile">
+                    <div class="circle-logo">
+                      <img src="./assets/youtube.svg" alt="youtube" />
+                    </div>
+                    <span>COE Channel</span>
+                  </div></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="divider"></div>
+
+        <div class="register-footer-container">
+          <span>© 2019 Copyright : Council of Engineers</span
+          ><span class="document-legals"
+            ><a href="/privacypolicy">• Privacy Policy</a></span
+          ><span class="document-legals"
+            ><a href="/terms-of-service">• Terms of Service</a></span
+          ><span class="document-legals"
+            ><a
+              href="https://service-api.coe.or.th/assets/cyber_security_271123.pdf"
+              target="_blank"
+              >• Cyber Security Policy</a
+            ></span
+          >
+        </div>
+      </div>
+    </div>
+
+    <script>
+      const navToggler = document.querySelector(".nav-toggler");
+      const closeIcon = document.querySelector(".times-logo");
+
+      navToggler.addEventListener("click", navToggle);
+      closeIcon.addEventListener("click", closeSidebar);
+
+      function navToggle() {
+        navToggler.classList.toggle("active");
+        const nav = document.querySelector(".side-manu-content");
+        nav.classList.toggle("open");
+        if (nav.classList.contains("open")) {
+          nav.style.maxHeight = nav.scrollHeight + "px";
+        } else {
+          nav.removeAttribute("style");
+        }
+      }
+
+      function closeSidebar() {
+        navToggler.classList.remove("active");
+        const nav = document.querySelector(".side-manu-content");
+        nav.classList.remove("open");
+        nav.removeAttribute("style");
+      }
+    </script>
+  </body>
+</html>
